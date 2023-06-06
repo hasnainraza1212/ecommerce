@@ -76,7 +76,7 @@ var woman7 = new Clothes('Women\'s mulberry silk pants', '$99.00', 'imagesEcomme
 var woman8 = new Clothes('Chiffon floral cardigan summer', '$24.00', 'imagesEcommerce\\womanCloth8.jpg');
 var woman9 = new Clothes('Women\'s tulip sleeved dress', '$169.00', 'imagesEcommerce\\womanCloth9.jpg');
 var woman10 = new Clothes('Sequin dresses for women party', '$48.00', 'imagesEcommerce\\womanCloth10.jpg');
-var woman11 = new Clothes('Lightweight lounge terry cardigan', '$195.00', 'imagesEcommerce\\womanCloth11.jpg');
+var woman11 = new Clothes('Lightweight lounge terry cardigan', '$195.00', 'imagesEcommerce\\womanCloth18.jpg');
 var woman12 = new Clothes('Casual ripped denim shorts', '$34.00', 'imagesEcommerce\\womanCloth12.jpg');
 var woman13 = new Clothes('Women\'s leather mini skirt', '$36.00', 'imagesEcommerce\\womanCloth13.jpg');
 var woman14 = new Clothes('Women\'s sleeveless round neck dress', '$47.00', 'imagesEcommerce\\womanCloth14.jpg');
@@ -88,8 +88,8 @@ var woman19 = new Clothes('Women\'s slim-fit cotton tank', '$16.00', 'imagesEcom
 var woman20 = new Clothes('Women casual long sleeve dresses', '$169.00', 'imagesEcommerce\\womanCloth20.jpg');
 var woman21 = new Clothes('Women\'s tulip sleeved sheath dress', '$169.00', 'imagesEcommerce\\womanCloth21.jpg');
 var woman22 = new Clothes('Sequin dresses for women party night', '$48.00', 'imagesEcommerce\\womanCloth22.jpg');
-var woman23 = new Clothes('Multi strap cross back one piece swimsuit', '$65.00', 'imagesEcommerce\\womanCloth23.jpg');
-var woman24 = new Clothes('One piece swimsuit competitive swimwear', '$26.00', 'imagesEcommerce\\womanCloth24.jpg');
+var woman23 = new Clothes('Multi strap cross back one piece swimsuit', '$65.00', 'imagesEcommerce\\womanCloth15.jpg');
+var woman24 = new Clothes('One piece swimsuit competitive swimwear', '$26.00', 'imagesEcommerce\\womanCloth10.jpg');
 var women = {
 woman1:woman1, 
 woman2:woman2, 

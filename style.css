@@ -51,6 +51,10 @@ img .img{
       flex: 0 0 33.33%;
       max-width: 33.33%;
     }
+    body{
+        
+        padding: 50px 0;
+    }
   }
   
   @media (max-width: 767px) {
@@ -58,12 +62,17 @@ img .img{
       flex: 0 0 50%;
       max-width: 50%;
     }
+    body{
+        
+        padding: 50px 0;
+    }
   }
   
 
     body{
-        min-width: 100px;
+        min-width: 400px;
         min-height: 100vh;
+        /* padding: 50px 0; */
     }
 
 * { 
@@ -107,6 +116,7 @@ img .img{
 @media screen and (max-width: 998px) {
     .navBar {
     position: absolute;
+    display: none !important;
 
         background-color: yellow;
         width: 100%;
@@ -127,6 +137,30 @@ img .img{
         padding-top: 100px;
         transition: all 0.3s ease;
         /* display: none; */
+    }
+    .selectContainer{
+        flex-direction: column-reverse;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+        /* background-color: red; */
+    }
+    .selectMain{
+        /* background-color: rgb(241, 241, 241); */
+        height: 50px;
+        width: 100%;
+        max-width: 400px !important;
+        min-width: 250px !important;
+
+    }
+   #categoryFilter{
+    height: 50px;
+    width: 100%;
+   }
+    .input{
+        max-width: 350px !important;
+        min-width: 150px !important;
+        margin-bottom: 30px;
     }
     
     .navLinks.open {
@@ -224,13 +258,8 @@ img .img{
 .input{
     width: 500px;
     height: 50px;
-    display: block;
-    /* background-color: black; */
-    /* position: relative; */
-    /* z-index: 1; */
     border: 0;
     border-radius: 25px;
-    /* position: fixed; */
 
 
 }
